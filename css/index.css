@@ -1,0 +1,584 @@
+#mask {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #FFFFFF;
+  position: relative;
+  left: 0;
+  bottom: 35px;
+  display: none;
+}
+#mask span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#mask .s2 {
+  background: #5079D9;
+  color: #FFFFFF;
+}
+
+dl:hover {
+  box-shadow: inset 0 0 38px rgba(0, 0, 0, 0.08);
+  transition: all .15s ease;
+}
+
+dl:hover #mask {
+  display: block;
+  z-index: 10;
+}
+
+#list {
+  height: 80px;
+  overflow: hidden;
+}
+#list .lists {
+  margin-top: 38px;
+}
+#list .lists .item {
+  float: left;
+  z-index: 10;
+  padding-right: 30px;
+}
+#list .lists .item a {
+  color: #666666;
+}
+
+#banner {
+  height: 530px;
+}
+#banner .w {
+  height: 500px;
+}
+#banner .w .lunbo {
+  position: relative;
+  width: 1220px;
+  margin: 0 auto;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5), inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+#banner .w .lunbo img {
+  width: 1220px;
+  height: 500px;
+}
+#banner .w .lunbo .tu1,
+#banner .w .lunbo .tu2,
+#banner .w .lunbo .tu3 {
+  position: absolute;
+}
+#banner .w .lunbo .beijing {
+  border-radius: 10px;
+  width: 1220px;
+}
+#banner .w .lunbo .phone,
+#banner .w .lunbo .erji {
+  top: -27px;
+  left: 40px;
+  width: 1220px;
+}
+#banner .w .lunbo .xiaoshi {
+  display: none;
+}
+#banner .w .lunbo .page {
+  position: absolute;
+  top: 450px;
+  left: 590px;
+  list-style: none;
+}
+#banner .w .lunbo .page .yuandian {
+  z-index: 999;
+  display: block;
+  float: left;
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#banner .w .lunbo .page .yuanbianse {
+  background: white;
+}
+#banner .w .lunbo2 {
+  display: none;
+}
+#banner .w .lunbo3 {
+  display: none;
+}
+
+#demonstrate {
+  height: 200px;
+}
+#demonstrate .w {
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#demonstrate .w a {
+  float: left;
+}
+
+#hot {
+  height: 490px;
+}
+#hot .w {
+  height: 490px;
+  border: 1px solid #DBDBDB;
+  margin-top: 30px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+#hot .w .hot_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#hot .w .hot_header span {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+}
+#hot .w .hot_bottom {
+  height: 430px;
+}
+#hot .w .hot_bottom dl {
+  width: 304px;
+  height: 430px;
+  float: left;
+  border-right: 1px solid #DBDBDB;
+}
+#hot .w .hot_bottom dl dt {
+  height: 275px;
+}
+#hot .w .hot_bottom dl dt img {
+  margin-left: 50px;
+  padding-top: 40px;
+}
+#hot .w .hot_bottom dl dt span {
+  visibility: hidden;
+}
+#hot .w .hot_bottom dl dd p {
+  text-align: center;
+}
+#hot .w .hot_bottom dl dd .p1 {
+  color: #424242;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#hot .w .hot_bottom dl dd .p2 {
+  color: #b2b2b2;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#hot .w .hot_bottom dl dd .p3 {
+  margin-bottom: 20px;
+}
+#hot .w .hot_bottom dl dd .p3 input {
+  width: 14px;
+  height: 14px;
+}
+#hot .w .hot_bottom dl dd .p4 {
+  color: red;
+  font-size: 14px;
+}
+#hot .w .hot_bottom dl:last-child {
+  border-right: none;
+}
+#hot .w .hot_bottom dl:last-child dd .p2 {
+  color: red;
+}
+
+#official {
+  height: 920px;
+  margin-top: 30px;
+}
+#official .w {
+  height: 920px;
+  border-left: 1px solid #DBDBDB;
+  border-top: 1px solid #DBDBDB;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+#official .w .official_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#official .w .official_header span {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+}
+#official .w dl {
+  border-right: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  width: 305px;
+  height: 428px;
+}
+#official .w dl dt {
+  height: 275px;
+}
+#official .w dl dt img {
+  margin-left: 50px;
+  padding-top: 40px;
+}
+#official .w dl dd p {
+  text-align: center;
+}
+#official .w dl dd .p1 {
+  color: #424242;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#official .w dl dd .p2 {
+  color: #b2b2b2;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#official .w dl dd .p3 {
+  margin-bottom: 20px;
+}
+#official .w dl dd .p3 input {
+  width: 14px;
+  height: 14px;
+}
+#official .w dl dd .p4 {
+  color: red;
+  font-size: 14px;
+}
+#official .w .official_1 {
+  width: 610px;
+  height: 428px;
+  border-right: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+  box-sizing: border-box;
+}
+
+#brand {
+  height: 920px;
+  margin-top: 30px;
+}
+#brand .w {
+  height: 920px;
+  border-left: 1px solid #DBDBDB;
+  border-top: 1px solid #DBDBDB;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+#brand .w .official_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#brand .w .official_header span {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+}
+#brand .w dl {
+  border-right: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  width: 305px;
+  height: 428px;
+}
+#brand .w dl dt {
+  height: 275px;
+}
+#brand .w dl dt img {
+  margin-left: 50px;
+  padding-top: 40px;
+}
+#brand .w dl dd p {
+  text-align: center;
+}
+#brand .w dl dd .p1 {
+  color: #424242;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#brand .w dl dd .p2 {
+  color: #b2b2b2;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#brand .w dl dd .p3 {
+  margin-bottom: 20px;
+}
+#brand .w dl dd .p3 input {
+  width: 14px;
+  height: 14px;
+}
+#brand .w dl dd .p4 {
+  color: red;
+  font-size: 14px;
+}
+#brand .w .official_1 {
+  width: 610px;
+  height: 428px;
+  border-right: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+  box-sizing: border-box;
+}
+
+#dynamic {
+  height: 260px;
+}
+#dynamic .w {
+  height: 260px;
+  border: 1px solid #DBDBDB;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+#dynamic .w .dynamic_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#dynamic .w .dynamic_header span {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+}
+#dynamic .w a {
+  width: 305px;
+  height: 200px;
+}
+#dynamic .w a img {
+  width: 305px;
+  height: 200px;
+  float: left;
+}
+
+#app {
+  height: 420px;
+}
+#app .w {
+  height: 420px;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-top: 30px;
+}
+#app .w .app_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#app .w .app_header .left {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+  float: left;
+}
+#app .w .app_header .right {
+  float: right;
+  width: 104px;
+  height: 36px;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #DBDBDB;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 36px;
+}
+#app .w .app_bottom {
+  height: 360px;
+}
+#app .w .app_bottom dl {
+  width: 305px;
+  height: 360px;
+  box-sizing: border-box;
+  border-right: 1px solid #DBDBDB;
+  float: left;
+  position: relative;
+}
+#app .w .app_bottom dl dt {
+  height: 190px;
+}
+#app .w .app_bottom dl dt img {
+  margin-left: 105px;
+}
+#app .w .app_bottom dl dd .p1 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#app .w .app_bottom dl dd .p2 {
+  font-size: 12px;
+  text-align: center;
+  color: #B2B2B2;
+  margin-bottom: 8px;
+}
+#app .w .app_bottom dl dd .p3 {
+  font-size: 12px;
+  text-align: center;
+  color: #B2B2B2;
+  margin-bottom: 25px;
+}
+#app .w .app_bottom dl dd .p4 {
+  font-size: 12px;
+  text-align: center;
+  color: #B2B2B2;
+}
+#app .w .app_bottom dl #appMask {
+  width: 90%;
+  height: 90%;
+  background: #FFFFFF;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  text-align: center;
+  display: none;
+  transition: all .5s ease-in 0s;
+}
+#app .w .app_bottom dl #appMask .s1,
+#app .w .app_bottom dl #appMask .s2 {
+  display: block;
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #5079D9;
+  background: #5079D9;
+  border-radius: 5px;
+  margin-left: 30px;
+  color: #FFFFFF;
+}
+#app .w .app_bottom dl #appMask .s1 .iconfont,
+#app .w .app_bottom dl #appMask .s2 .iconfont {
+  font-size: 20px;
+  padding-right: 5px;
+}
+#app .w .app_bottom dl #appMask .s1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#app .w .app_bottom dl #appMask .s2 {
+  margin-bottom: 30px;
+}
+#app .w .app_bottom dl #appMask .s3 a {
+  color: #5079D9;
+}
+#app .w .app_bottom dl #appMask2 {
+  width: 90%;
+  height: 90%;
+  background: #FFFFFF;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  text-align: center;
+  display: none;
+  transition: all .5s ease-in 0s;
+}
+#app .w .app_bottom dl #appMask2 .s1 {
+  display: block;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+#app .w .app_bottom dl #appMask2 .s2 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#app .w .app_bottom dl #appMask2 .s3 a {
+  color: #5079D9;
+}
+#app .w .app_bottom dl:hover {
+  transition: all .15s ease;
+}
+#app .w .app_bottom dl:hover #appMask,
+#app .w .app_bottom dl:hover #appMask2 {
+  display: block;
+}
+
+#forum {
+  height: 420px;
+}
+#forum .w {
+  height: 420px;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-top: 30px;
+}
+#forum .w .forum_header {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#forum .w .forum_header .left {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 30px;
+  float: left;
+}
+#forum .w .forum_header .right {
+  float: right;
+  width: 104px;
+  height: 36px;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #DBDBDB;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 36px;
+}
+#forum .w .forum_bottom {
+  height: 360px;
+}
+#forum .w .forum_bottom dl {
+  width: 305px;
+  height: 360px;
+  box-sizing: border-box;
+  border-right: 1px solid #DBDBDB;
+  float: left;
+  position: relative;
+}
+#forum .w .forum_bottom dl dt {
+  height: 190px;
+}
+#forum .w .forum_bottom dl dt img {
+  width: 245px;
+  height: 160px;
+  margin-left: 30px;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+#forum .w .forum_bottom dl dd .p1 {
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+#forum .w .forum_bottom dl dd .p2 {
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #B2B2B2;
+  margin-bottom: 8px;
+}
+#forum .w .forum_bottom dl dd .p3 {
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+#forum .w .forum_bottom dl dd .p3 a {
+  color: #5079D9;
+}
+
+/*# sourceMappingURL=index.css.map */

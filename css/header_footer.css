@@ -1,0 +1,211 @@
+#header {
+  width: 100%;
+  height: 100px;
+  background: #0B0B0B;
+}
+#header .left img {
+  margin-top: 25px;
+}
+#header .center {
+  margin-top: 40px;
+}
+#header .center .item {
+  float: left;
+  padding: 0 25px;
+}
+#header .center .item a {
+  color: #C8C8C8;
+}
+#header .center .item a:hover {
+  color: #f8f8f8;
+}
+#header .rigth {
+  position: relative;
+  margin-top: 38px;
+}
+#header .rigth .iconfont {
+  font-size: 18px;
+  margin-left: 35px;
+  color: #999999;
+}
+#header .rigth #loginMsg {
+  width: 100px;
+  height: 80px;
+  list-style: none;
+  background: #FFFFFF;
+  position: absolute;
+  left: 45px;
+  top: 35px;
+  z-index: 200;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+}
+#header .rigth #loginMsg li {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+#header .rigth #loginMsg .item2 {
+  cursor: pointer;
+}
+
+#autoList {
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #f7f7f7;
+  background-image: linear-gradient(#fff, #f1f1f1);
+  border-bottom: 1px solid #dadada;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  display: none;
+}
+#autoList .w {
+  height: 60px;
+}
+#autoList .w .left .lists {
+  margin-top: 20px;
+}
+#autoList .w .left .lists .item {
+  float: left;
+  z-index: 10;
+  padding-right: 30px;
+}
+#autoList .w .left .lists .item a {
+  color: #666666;
+}
+#autoList .w .right {
+  margin-top: 20px;
+}
+#autoList .w .right .iconfont {
+  font-size: 18px;
+  margin-left: 35px;
+  color: #999999;
+}
+
+#footer {
+  width: 100%;
+  height: 350px;
+  background: #FFFFFF;
+  margin-top: 30px;
+}
+#footer .w {
+  height: 350px;
+}
+#footer .w .footer_top {
+  height: 230px;
+  border-bottom: 1px solid #DBDBDB;
+}
+#footer .w .footer_top ul {
+  float: left;
+  margin-top: 90px;
+  margin-right: 100px;
+}
+#footer .w .footer_top ul li {
+  height: 25px;
+  line-height: 25px;
+}
+#footer .w .footer_top ul li a {
+  font-size: 12px;
+  color: #969696;
+}
+#footer .w .footer_top ul li:first-child {
+  height: 30px;
+  line-height: 30px;
+}
+#footer .w .footer_top ul li:first-child h3 {
+  font-size: 12px;
+  color: #646464;
+}
+#footer .w .footer_top .footer_top_right {
+  margin-top: 90px;
+}
+#footer .w .footer_top .footer_top_right .p1 {
+  font-size: 22px;
+  color: #8E7D74;
+  height: 40px;
+  line-height: 40px;
+}
+#footer .w .footer_top .footer_top_right .p2 {
+  font-size: 12px;
+  color: #C3C3C3;
+  height: 24px;
+  line-height: 24px;
+}
+#footer .w .footer_top .footer_top_right span {
+  display: block;
+  width: 130px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #5079D9;
+  float: right;
+  margin-top: 10px;
+}
+#footer .w .footer_bottom {
+  overflow: hidden;
+}
+#footer .w .footer_bottom .language {
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: right;
+}
+#footer .w .footer_bottom .language .i1 {
+  font-size: 14px;
+  color: red;
+  padding-right: 10px;
+}
+#footer .w .footer_bottom .language .i2 {
+  padding-left: 25px;
+}
+#footer .w .footer_bottom .last {
+  margin-top: 40px;
+}
+#footer .w .footer_bottom .last .p1 span {
+  height: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-left: 1px solid #DBDBDB;
+}
+#footer .w .footer_bottom .last .p1 span a {
+  color: #5079D9;
+}
+#footer .w .footer_bottom .last .p2 {
+  margin-top: 8px;
+}
+#footer .w .footer_bottom .last .p2 a {
+  color: #BDBDBD;
+  padding-right: 20px;
+}
+#footer .w .footer_bottom .return {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  background: white;
+  display: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header_footer.css.map */
